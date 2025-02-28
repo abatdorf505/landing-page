@@ -46,6 +46,23 @@ p {
     gap: 2em;
 }
 
+.section3 {
+    background-color: #e5e7eb;
+    padding: 0 2em;
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container3 {
+    margin: 0 auto;
+    min-width: 52%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
