@@ -6,6 +6,11 @@ body {
     margin: 0;
 }
 
+p {
+    margin: 0;
+    padding: 0;
+}
+
 .section1 {
     background-color: #1f2937;
     padding: 0 26vw;
@@ -38,7 +43,7 @@ body {
     align-items: flex-start;
 }
 
-.hero-img {
+.hero-image {
     flex: 1;
 }
 
