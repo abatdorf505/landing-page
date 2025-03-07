@@ -14,7 +14,8 @@ p, h1, h2, ul {
 
 header,
 .hero,
-.information {
+.information,
+.quote {
     display: flex;
     justify-content: center;
 }
@@ -97,7 +98,8 @@ header, .hero {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    width: 800px;
+    width: 820px;
+    padding: 1em;
 }
 
 .information-header {
@@ -109,7 +111,7 @@ header, .hero {
 
 .media-container {
     display: flex;
-    gap: 8%;
+    gap: 7%;
     margin-bottom: 100px;
 }
 
@@ -129,6 +131,30 @@ header, .hero {
     border-radius: 15px;
 }
 .media-subtext{
-    font-size: 16px;
+    font-size: 18px;
     color: #666666;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote-content {
+    width: 780px;
+    padding: 125px 1em;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+.quote-person {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: right;
+    margin-right: 2em;
 }
