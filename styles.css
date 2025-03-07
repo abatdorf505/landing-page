@@ -15,7 +15,8 @@ p, h1, h2, ul {
 header,
 .hero,
 .information,
-.quote {
+.quote,
+.call-to-action {
     display: flex;
     justify-content: center;
 }
@@ -90,7 +91,7 @@ header, .hero {
     color: #f9faf8;
     border: none;
     border-radius: 5px;
-    padding: 0.4em 1.6em;
+    padding: 0.3em 1.7em;
 }
 
 .information-content {
@@ -140,7 +141,7 @@ header, .hero {
 }
 
 .quote-content {
-    width: 780px;
+    width: 775px;
     padding: 125px 1em;
 }
 
@@ -157,4 +158,38 @@ header, .hero {
     color: #1f2937;
     text-align: right;
     margin-right: 2em;
+}
+
+.call-content {
+    width: 1000px;
+    padding: 100px 1em;
+}
+
+.call-container {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    padding: 3em 7em;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.call-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-main {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 700;
+}
+
+.call-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.call-container > .sign-up {
+    border: 2px solid white;
 }
