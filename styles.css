@@ -48,7 +48,7 @@ header, .hero {
     display: flex;
     width: 1000px;
     padding: 1em;
-    gap: 4em;
+    gap: 4.2em;
 }
 
 .hero-text {
